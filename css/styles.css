@@ -33,7 +33,7 @@ h4 {
         margin-right: auto;
     };
 }
-/* Makes header align to the right and logo left when greater than 991px wide */
+/* Makes header align to the right and logo aligns left when greater than 991px wide */
 @media only screen and (min-width: 992px) {
     .titleShift {
         padding: 10px 15px 0px 0px;
