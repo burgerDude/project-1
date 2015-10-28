@@ -1,0 +1,46 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+}
+
+hr {
+    border-width: 3px;
+    border-color: #bcbbbb;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+h4 {
+    font-weight: 300;
+}
+
+.imageAdjust {
+    width: 100%;
+}
+/* Makes header and logo centered when less than 992px wide */
+@media only screen and (max-width: 991px) {
+    .titleShift {
+        padding: 10px 15px 0px 0px;
+        text-align: center;
+    }
+
+    .logoShift {
+        padding: 14px 0px 0px 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    };
+}
+/* Makes header align to the right and logo left when greater than 991px wide */
+@media only screen and (min-width: 992px) {
+    .titleShift {
+        padding: 10px 15px 0px 0px;
+        text-align: right;
+    }
+
+    .logoShift {
+        padding: 14px 0px 0px 15px;
+    };
+}
